@@ -5,12 +5,13 @@
 /**
  * main - Entry point
  * DESCRIPTION: 'this programs assigns a random number to n'
- * RETURN: always return 0 (success)
+ * Return: always return 0 (success)
  */
 
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
