@@ -1,4 +1,4 @@
-#include <stdi0.h>
+#include <stdio.h>
 /**
  * main - Entry point
  * prints 0-9
