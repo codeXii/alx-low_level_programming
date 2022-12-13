@@ -1,14 +1,13 @@
 #include "main.h"
-
 /**
- * main - Entry block
- * 'prints _putchar'
- * Return: Always 0 (success)
+ * main - Entry Block
+  *Description: prints _putchar followed by a new line
+ * Return: 0
  */
-
 int main(void)
 {
 	char c[8] = "_putchar";
+
 	int i = 0;
 
 	while (i < 8)
@@ -16,8 +15,6 @@ int main(void)
 		_putchar(c[i]);
 		i++;
 	}
-
-	putchar('\n');
-
+	_putchar('\n');
 	return (0);
 }
