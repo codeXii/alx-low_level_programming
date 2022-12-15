@@ -1,5 +1,5 @@
 #ifndef MAIN_H
-#deinfe MAIN_H
+#define MAIN_H
 
 
 
