@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #include MAIN_H
 
-_putchar();
+int _putchar();
 char *_strcat(char *dest, char *src);
 
 
