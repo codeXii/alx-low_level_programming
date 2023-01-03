@@ -1,13 +1,31 @@
 #include "main.h"
 
 /**
-  * set_string - Sets the value of a pointer to char
-  * @s: the value to modify
-  * @to: the value to assign
-  *
-  * Return: Nothing.
-  */
-void set_string(char **s, char *to)
+ * _strstr - finds the first occurrence of the substring.
+ * needle in the string haystack.
+ * @haystack: entire string.
+ * @needle: substring.
+ * Return: pointer to the beginning of located substring or
+ * NULL if the substring is not found.
+*/
+char *_strstr(char *haystack, char *needle)
 {
-	*s = to;
+	char *h;
+	char *n;
+
+	while (*haystack != '\0')
+	{
+		h = haystack;
+		n = needle;
+
+		while (*haystack != '\0' && *n != '\0' && *haystack == *n)
+		{
+			haystack++;
+			n++;
+		}
+		if (!*n)
+			return (h);
+		haystack = h + 1;
+	}
+	return (0);
 }
