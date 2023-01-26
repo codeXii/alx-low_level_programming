@@ -1,1 +1,1 @@
-repo for variadic functions in c
+# repo for variadic functions in c
